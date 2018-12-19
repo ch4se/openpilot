@@ -61,7 +61,7 @@ class CAR:
   ACCORD_15 = "HONDA ACCORD 2018 LX 1.5T"
   ACCORDH = "HONDA ACCORD 2018 HYBRID TOURING"
   CIVIC = "HONDA CIVIC 2016 TOURING"
-  CIVIC__2018 = "HONDA CIVIC 2018 EX"
+  CIVIC_2018 = "HONDA CIVIC 2018 EX"
   CIVIC_HATCH = "HONDA CIVIC HATCHBACK 2017 EX"
   ACURA_ILX = "ACURA ILX 2016 ACURAWATCH PLUS"
   CRV = "HONDA CR-V 2016 TOURING"
@@ -133,7 +133,7 @@ DBC = {
   CAR.ACURA_ILX: dbc_dict('acura_ilx_2016_can_generated', 'acura_ilx_2016_nidec'),
   CAR.ACURA_RDX: dbc_dict('acura_rdx_2018_can_generated', 'acura_ilx_2016_nidec'),
   CAR.CIVIC: dbc_dict('honda_civic_touring_2016_can_generated', 'acura_ilx_2016_nidec'),
-  CAR.CIVIC__2018: dbc_dict('honda_civic_touring_2016_can_generated','acura_ilx_2016_nidec'),
+  CAR.CIVIC_2018: dbc_dict('honda_civic_touring_2016_can_generated','acura_ilx_2016_nidec'),
   CAR.CIVIC_HATCH: dbc_dict('honda_civic_hatchback_ex_2017_can_generated', None),
   CAR.CRV: dbc_dict('honda_crv_touring_2016_can_generated', 'acura_ilx_2016_nidec'),
   CAR.CRV_5G: dbc_dict('honda_crv_ex_2017_can_generated', None),
@@ -150,7 +150,7 @@ STEER_THRESHOLD = {
   CAR.ACURA_ILX: 1200,
   CAR.ACURA_RDX: 400,
   CAR.CIVIC: 1200,
-  CAR.CIVIC__2018: 1200,
+  CAR.CIVIC_2018: 1200,
   CAR.CIVIC_HATCH: 1200,
   CAR.CRV: 1200,
   CAR.CRV_5G: 1200,
@@ -167,7 +167,7 @@ SPEED_FACTOR = {
   CAR.ACURA_ILX: 1.,
   CAR.ACURA_RDX: 1.,
   CAR.CIVIC: 1.,
-  CAR.CIVIC__2018: 1.,
+  CAR.CIVIC_2018: 1.,
   CAR.CIVIC_HATCH: 1.,
   CAR.CRV: 1.025,
   CAR.CRV_5G: 1.025,
